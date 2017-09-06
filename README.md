@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Quizzler
 Learn to make iOS Apps with [The App Brewery](https://www.appbrewery.co) 📱 | Project Stub | (Swift 4.0/Xcode 9) - Quizzler App
 
@@ -46,3 +47,7 @@ Pro: Git clone to your Xcode projects folder.
         
 
 Copyright © The App Brewery
+=======
+# Quizzler-tutorial
+tutorial from Angela Yu's amazing iOS udemy course
+>>>>>>> 829c931b62c0ee3eb758a54d29fb68292cc14735
