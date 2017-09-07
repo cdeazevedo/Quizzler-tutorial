@@ -46,7 +46,6 @@ class ViewController: UIViewController {
         
         scoreLabel.text = "Score: \(score)"
         progressLabel.text = "\(questionNumber + 1) / 13"
-        
         progressBar.frame.size.width = (view.frame.size.width / 13) * CGFloat(questionNumber + 1)
     }
     
@@ -76,10 +75,14 @@ class ViewController: UIViewController {
         
         let correctAnswer = allQuestions.list[questionNumber].answer
         if pickedAnswer == correctAnswer {
-            print("you got it")
+            
+            ProgressHUD.showSuccess("Correct", interaction: true)
             score += 1
+            
         } else {
-            print("wrong")
+            
+             ProgressHUD.showError("Wrong")
+            
         }
         
     }
